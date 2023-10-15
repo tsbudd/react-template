@@ -12,7 +12,7 @@ export default function TemplateWidget() {
 
     return (
         <div>
-            <Button variant="primary" onClick={handleIncrement}>
+            <Button variant="outline-primary" onClick={handleIncrement}>
                 Increment Count
             </Button>
         </div>

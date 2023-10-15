@@ -17,16 +17,10 @@ function Home() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    CurrentCount = {currentCount}
-                </p>
-                <p>
-                    Fact = {fact}
-                </p>
+                <p>CurrentCount = {currentCount}</p>
+                <p>Fact = {fact}</p>
+                <TemplateWidget />
             </header>
-            <body className="App-body">
-                <TemplateWidget/>
-            </body>
         </div>
     );
 }
